@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enquiry - Hope Hands Foundation</title>
+  <meta name="description" content="Submit an enquiry to Hope Hands Foundation about services, volunteering, or sponsorship.">
+  <meta name="keywords" content="Hope Hands, enquiry, volunteer, sponsor, charity">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+     <img src ="images/logo.png" alt ="Hand of Hope Logo" class ="logo">
+    <h1>Hope Hands Foundation</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="programs.html">Programs</a>
+      <a href="donate.html">Donate</a>
+      <a href="contact.html">Contact</a>
+      <a href="enquiry.html">Enquiry</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Submit an Enquiry</h2>
+    <form id="enquiryForm" action="mailto:hopehands@example.com" method="post" enctype="text/plain">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="enquiry">Enquiry Type:</label>
+      <select id="enquiry" name="enquiry" required>
+        <option value="">--Select--</option>
+        <option value="services">Services</option>
+        <option value="products">Products</option>
+        <option value="volunteer">Volunteer</option>
+        <option value="sponsor">Sponsor</option>
+      </select>
+
+      <label for="details">Details:</label>
+      <textarea id="details" name="details" rows="5" required></textarea>
+
+      <button type="submit">Submit Enquiry</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Hope Hands Foundation. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

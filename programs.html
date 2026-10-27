@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Programs - Hope Hands Foundation</title>
+  <!---SEO Meta Tags--->
+  <meta name="description" content="Hope Hands Foundation-Helping hands,Brighter Futures.">
+  <meta name="keywords" content="charity,donation,volunteer,Hope Hands">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+  <header>
+    <img src ="images/logo.png" alt ="Hand of Hope Logo" class ="logo">
+  
+    <h1>Hope Hands Foundation</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="programs.html">Programs</a>
+      <a href="donate.html">Donate</a>
+      <a href="contact.html">Contact</a>
+      <a href="enquiry.html">Enquiry</a>
+    </nav>
+  </header>
+
+  <!-- Food Drive Section -->
+<h2>Food Drive</h2>
+<p>Providing meals to children and families in need.</p>
+
+<!-- Gallery Lightbox under Food Drive -->
+<div class="gallery">
+  <img src="images/food_drive.jpg" alt="Food Drive" onclick="openLightbox(this)">
+</div>
+
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <span class="close">&times;</span>
+  <img id="lightbox-img" src="">
+</div>
+  <section>
+    <h2>Education Program</h2>
+    <p>Supporting learning through resources and tutoring.</p>
+  </section>
+
+  <section>
+    <h2>Events Calendar</h2>
+    <p>Upcoming events will be listed here.</p>
+    <div class="gallery">
+  <img src="images/community_event.jpeg" alt="Community Event" onclick="openLightbox(this)">
+</div>
+  </section>
+  <section id="events">
+  <h2>Upcoming Events</h2>
+  <!-- JS events here -->
+</section>
+<!---Accordion-->
+<button class="accordion">More About Our Programs</button>
+<div class="panel">
+  <p>We provide food drives, education support, and community outreach programs to uplift children.</p>
+</div>
+
+
+
+  <footer>
+    <p>&copy; 2026 Hope Hands Foundation</p>
+  </footer>
+   <script src="script.js"></script>
+</body>
+</html>

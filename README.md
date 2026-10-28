@@ -20,7 +20,28 @@ The project demonstrates the use of **HTML and external CSS** to build a respons
 - Applied Flexbox for layout alignment.
 - Ensured responsiveness with media queries (tested on mobile and different screen sizes).
 
+## Part 3
 
+## Overview
+This project was developed as part of WEDE5020 POE. It is a multi‑page responsive website with external CSS, interactive features, and SEO optimization.
+
+## Features
+- Accordion toggle for dynamic content
+- Interactive Google Map added
+- Gallery lightbox for Food Drive and Community Event
+- Responsive design with external CSS
+- robots.txt and sitemap.xml for SEO
+- Basic form validation for enquiries
+
+## Security Considerations
+- Implemented robots.txt and sitemap.xml for controlled crawling
+- Forms use HTML5 validation to prevent invalid input
+- Hosted on GitHub Pages with HTTPS enabled
+- No sensitive data stored in repository
+
+## References for images
+-https://bethelncumc.com/outreach-vs-service/
+https://www.lovetoknow.com/life/lifestyle/how-organize-food-drive
 Amogelang 
 
 
